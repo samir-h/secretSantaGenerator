@@ -1,0 +1,15 @@
+{
+  "name": "secretSantaGenerator",
+  "version": "1.0.0",
+  "description": "This app generates a ranom 'Secret Santa' from a JSON file, and sends e-mails.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samir-h",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^4.6.8",
+    "promptly": "^3.0.3"
+  }
+}
